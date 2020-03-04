@@ -11,6 +11,7 @@ The zero price will be easily replaced at product view and list pages.
 ## Installation
 
 - You should have magento 2 installed with you
--  copy this folder in `app/code/Mageplaza/`
+-  copy this folder in `app/code/LovePHP/`
 - `php bin/magento module:status`
 - `php bin/magento module:enable LovePHP_CustomZeroPriceText`
+- `php bin/magento setup:upgrade`
